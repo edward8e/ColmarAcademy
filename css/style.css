@@ -1,2 +1,31 @@
 /* CSS Document */
 
+html{
+	font-size: 18px;
+}
+
+.container{
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+nav{
+	
+	height: 3.5rem;
+}
+nav .title{
+	
+}
+
+/*Title Font*/
+
+nav .colmar{
+	font-weight: bold;
+}
+
+/*Section 1*/
+
+.section1{
+	background-color: lightgray;
+	height: 50px;
+}
