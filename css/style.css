@@ -107,20 +107,13 @@ ul li {
 /*Section2*/
 
 .section2{
-	height: 2000px;
+	height: 500px;
 	background-color: aqua;
 	display: flex;
 }
 
-.section2 .box1{
+.section2 .box{
 	background-color: blue;
 	height: 200px;
-	flex-grow: 3;
-}
-
-.section2 .box2{
-	background-color: blue;
-	height: 200px;
-	flex-grow: 2;
-	display: flex;
+	flex-grow: 1
 }
