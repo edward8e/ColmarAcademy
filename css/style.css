@@ -18,7 +18,9 @@ img{
 	height: auto;
 }
 
-
+.moblie-on{
+		display: none;
+	}
 
 
 
@@ -61,6 +63,26 @@ ul li {
   display: inline;
   padding: 0 0.5rem;
 }
+nav .moblie-on{
+	display: none;
+}
+
+/*Media Querie for Moblie*/
+
+@media only screen and (max-width: 736px) { 
+	body .moblie-on{
+		display: block;
+	}
+	body .moblie-off{
+		display: none;
+	}
+	nav{
+		justify-content: space-around;
+	}
+}
+
+
+
 
 /*Section 1*/
 
@@ -101,6 +123,20 @@ ul li {
 	color: white;
 	padding: 1rem;
 	font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 736px) { 
+	.section1{
+		flex-direction: column;
+		padding: 0rem;
+		align-items: center;
+	}
+	.section1 .main-text{
+	margin: 0rem;
+	margin-bottom: 2rem;
+	width: 90%;
+	align-items: center;
+}
 }
 
 
@@ -157,6 +193,38 @@ ul li {
 }
 
 
+
+
+@media only screen and (max-width: 736px) { 
+	.sub{
+		flex-direction: column;
+	}
+	.section2 .box2{
+		width: 100%;
+		border: solid 0px white;
+	}
+	.section2 .box2 .sub{
+	border-bottom: solid lightgray 0px;
+}
+	.section2 .sub-text{
+		max-width: 90%;
+		
+	}
+	 .moblie-on{
+		display: block;
+	}
+	 .moblie-off{
+		display: none;
+	}
+	.section2 .box2 .photo{
+		width: 90%;
+	}
+	.section2 .sc-3{
+	background-color: white;
+}
+}
+
+
 /*Section 3*/
 
 
@@ -189,6 +257,29 @@ ul li {
 }
 .section3 .sub-text{
 	margin: 1rem;
+}
+
+@media only screen and (max-width: 736px) { 
+	.section3{
+		background-color: white;
+	}
+	.section3 .box1,.section3 .box2{
+		flex-direction: column;
+		width: 90%;
+	}
+	.section3 .sub{
+		background-color: lightgray;
+		padding: 1rem;
+		margin: 0.5rem;
+	}
+	.section3 h3{
+		font-size: 2rem;
+	}
+	.section3 h1{
+	padding: 2rem;
+	font-size: 3rem;
+}
+	
 }
 
 
@@ -253,6 +344,15 @@ ul li {
 	margin: 2rem;
 }
 
+
+@media only screen and (max-width: 736px) { 
+	.section4 .box1{
+		width: 100%;
+		margin: 0rem;
+	}
+	
+}
+
 /*Footer Section*/
 
 footer{
@@ -260,4 +360,14 @@ footer{
 	justify-content: space-between;
 	padding: 1rem 1.5rem 3rem 1.5rem;
 	border-top: solid lightgray 0.15rem;
+}
+
+
+@media only screen and (max-width: 736px) { 
+	footer{
+		border-top: solid white 0rem;
+		justify-content: center;
+		padding: 3rem 1.5rem 3rem 1.5rem;
+	}
+	
 }
