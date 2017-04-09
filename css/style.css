@@ -2,30 +2,125 @@
 
 html{
 	font-size: 18px;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	color: #4a4a4a;
+}
+body{
+  line-height: 1.4rem;
 }
 
 .container{
 	margin-left: 24px;
 	margin-right: 24px;
 }
+img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+/*Navigation Section*/
 
 nav{
-	
+	display: flex;
+	justify-content: space-between;
 	height: 3.5rem;
 }
+
 nav .title{
-	
+	display: flex;
+	align-items: center;
+}
+nav img{
+	height: 3rem;
 }
 
 /*Title Font*/
 
 nav .colmar{
-	font-weight: bold;
+	font-weight: 900;
+}
+
+nav .academy{
+	font-weight: 300;
+	color: gray
+}
+
+/*Nav Menu*/
+
+ul {
+  margin-right: 1rem;
+	display: flex;
+	align-items: center;
+}
+
+ul li {
+  display: inline;
+  padding: 0 0.5rem;
 }
 
 /*Section 1*/
 
 .section1{
 	background-color: lightgray;
-	height: 50px;
+	display: flex;
+	padding: 3rem;
+	height: auto;
+}
+
+.section1 img{
+	height: auto;
+	width: 100%;
+}
+
+.section1 .main-text{
+	display: flex;
+	align-items: center;
+	margin: 3rem;
+	width: 30%;
+}
+
+.section1 h1{
+	font-size: 3rem;
+	line-height: 3rem;
+	font-weight: bold;
+	margin: 2rem;
+}
+.section1 p{
+	line-height: 2rem;
+	font-size: 2rem;
+	margin: 2rem;
+}
+
+.section1 .btn{
+	background-color: #4a4a4a;
+	text-align: center;
+	color: white;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+
+/*Section2*/
+
+.section2{
+	height: 2000px;
+	background-color: aqua;
+	display: flex;
+}
+
+.section2 .box1{
+	background-color: blue;
+	height: 200px;
+	flex-grow: 3;
+}
+
+.section2 .box2{
+	background-color: blue;
+	height: 200px;
+	flex-grow: 2;
+	display: flex;
 }
