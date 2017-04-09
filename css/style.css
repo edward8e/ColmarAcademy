@@ -126,14 +126,17 @@ ul li {
 
 .section2 .box2{
 	width: 40%;
-	padding: 3rem 1rem;
+	padding: 3rem 0rem;
 	border-left: solid lightgray 0.15rem;
 /*	display: flex;*/
 }
 .section2 .box2 .sub{
 	display: flex;
+	padding: 0rem 1rem;
+	border-bottom: solid lightgray 0.15rem;
 	align-items: center;
 }
+
 
 .section2 .box2 .photo{
 	width: 35%;
@@ -148,4 +151,29 @@ ul li {
 }
 .section2 .sc-3{
 	background-color: lightgray;
+}
+
+
+/*Section 3*/
+
+
+.section3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: lightgray;
+}
+.section3 h1{
+	padding: 2rem;
+	font-size: 2rem;
+}
+.section3 .box1,.box2{
+	display: flex;
+}
+.section3 .sub{
+	margin: 2rem;
+	background-color: white;
+}
+.section3 p,h4{
+	color: gray;
 }
