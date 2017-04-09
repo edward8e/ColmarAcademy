@@ -67,7 +67,7 @@ ul li {
 .section1{
 	background-color: lightgray;
 	display: flex;
-	padding: 3rem;
+	padding: 3rem 2rem;
 	height: auto;
 }
 
@@ -142,6 +142,9 @@ ul li {
 	width: 35%;
 	margin: 1rem;
 }
+.section2 .sub-text{
+	max-width: 50%;
+}
 
 .section2 h3{
 	font-size: 2rem;
@@ -168,16 +171,93 @@ ul li {
 	padding: 2rem;
 	font-size: 2rem;
 }
-.section3 .box1{
+.section3 .box1,.section3 .box2{
 	display: flex;
-}
-.section3 .box2{
-	display: flex;
+	justify-content: center;
 }
 .section3 .sub{
 	margin: 2rem;
 	background-color: white;
+	max-width: 30rem;
 }
-.section3 p,h4{
+.section3 p,.section3 h4{
 	color: gray;
+	padding: 0.5rem 0rem;;
+}
+.section3 h3{
+	font-size: 1.4rem;
+}
+.section3 .sub-text{
+	margin: 1rem;
+}
+
+
+/*Section 4*/
+
+.section4{
+	display: flex;
+	flex-direction: column;
+}
+
+/*First Box*/
+.section4 .box1{
+	margin: 3rem 2rem;
+	width: 60%;
+}
+.section4 h1{
+	font-size: 3rem;
+	line-height: 3rem;
+	font-weight: bold;
+	margin: 2rem 0rem 1.5rem 0rem;
+	
+}
+
+/*Second Box*/
+
+.section4 .box2{
+	width: 40%;
+	padding: 3rem 0rem;
+
+/*	display: flex;*/
+}
+.section4 .box2 .sub{
+	display: flex;
+	padding: 0rem 1rem;
+	align-items: center;
+}
+
+
+.section4 .box2 .photo{
+	width: 35%;
+	margin: 1rem;
+}
+.section4 .sub-text{
+	max-width: 50%;
+}
+
+.section4 h3{
+	font-size: 2rem;
+}
+.section4 p{
+	padding: 0.5rem 0rem;
+	color: gray;
+}
+.section4 .sc-1{
+	background-color: lightgray;
+}
+.section4 .inter-section{
+	display: flex;
+}
+.section4 > h1{
+	text-align: center;
+	margin: 2rem;
+}
+
+/*Footer Section*/
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 1.5rem 3rem 1.5rem;
+	border-top: solid lightgray 0.15rem;
 }
